@@ -1,0 +1,25 @@
+<header class="fixed top-0 left-0 z-50 w-full bg-main-color/75 border-b border-gray-950 backdrop-blur-xl">
+    <div class="w-full flex justify-between">
+        <div class="w-full flex justify-between items-center px-10">
+            <div class="w-24">
+                <button routerLink="../home">
+                    <img class="w-full" src="images/logo.png" alt="">
+                </button>
+            </div>
+            <div class="w-full flex justify-center shadow-sm">
+                <div class="w-1/2 rounded-lg h-10 flex bg-main-color justify-center items-center border border-text-color border-opacity-50">
+                    <input class="w-full text-text-color bg-main-color px-3 rounded-l-lg h-full" placeholder="Search..." type="text">
+                    <div class="w-10 flex justify-center">
+                        <button>
+                            <fa-icon class="text-text-color" [icon]="faMagnifyingGlass"></fa-icon>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="flex gap-5">
+                <button>Ingresar</button>
+                <button>Crear cuenta</button>
+            </div>
+        </div>
+    </div>
+</header>
